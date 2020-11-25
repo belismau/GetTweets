@@ -1,3 +1,4 @@
+# My way to get bearer token
 def get_bearer():
     with open('API_info/codes.txt', 'r') as f:
         for line in f:

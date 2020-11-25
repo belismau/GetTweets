@@ -1,9 +1,15 @@
-/__pycache__
+/Version_1/__pycache__
 
-/API_info
+/Version_1/Components/__pycache__
 
-/Components/__pycache__
+/Version_1/API_info
 
-/csv_files
+/Version_1/csv_files
+
+/Version_1/.DS_Store
+
+/Version_2/Components/__pycache__
+
+/Version_2/.DS_Store
 
 /.DS_Store

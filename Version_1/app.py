@@ -1,14 +1,14 @@
-import json
-
 from Components.GetData import GetData
 from Components.AddTweetsToFile import AddTweetsToFile
 from Components.Preparation import Preparation
 from Components.RemoveReplies import RemoveReplies
-from get_bearer import get_bearer
+from Components.get_bearer import get_bearer
+
+import json
 
 # Getting my bearer token from codes.txt
 bearer_token = get_bearer()
-username = 'goteborgcom'
+username = 'malmotown'
 
 # Preparing for the request
 tweets = Preparation(username)
@@ -21,6 +21,4 @@ for list_part in tweets_list:
     data = json.loads(response.text)
     AddTweetsToFile(data, username)
 
-# Filtering out replies
 RemoveReplies(username)
-
