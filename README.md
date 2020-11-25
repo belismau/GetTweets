@@ -2,7 +2,7 @@
 Two different Python scripts to get tweets from a Twitter account
 
 ## Description
-Choose between [Version_1](https://github.com/twintproject/twint) and [Version_2](https://github.com/twintproject/twint), or try out both.
+Choose between [Version_1](https://github.com/belismau/GetTweets/tree/main/Version_1) and [Version_2](https://github.com/belismau/GetTweets/tree/main/Version_2), or try out both.
 
 ---
 
