@@ -8,7 +8,7 @@ Version_2: Python script to get tweets from a Twitter account
 
 ## Usage
 1. Open ```app.py``` in VSC or any other editors, and change variable ```username``` to whatever username you want to extract tweets from.
-2. Change variable ```response``` to whatever responds you want. You can find all respond alternatives in [resp_example.json](https://github.com/belismau/GetTweets.git)
+2. Change variable ```response``` to whatever responds you want. You can find all respond alternatives in [resp_example.json](https://github.com/belismau/GetTweets/blob/main/Version_2/resp_example.json)
 3. Run the app: ```python3 app.py```
 
 ## Output
