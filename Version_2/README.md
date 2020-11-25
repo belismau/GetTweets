@@ -29,5 +29,7 @@ responds = [
 Output will be three csv files (all without **replies**):
 
 - ```username_tweet.csv```: This file contains all tweets.
+
 - ```username_date.csv```: This file contains all dates for all tweets.
+
 - ```username_link.csv```: This file contains all links for all tweets.
